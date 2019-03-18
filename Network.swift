@@ -7,8 +7,8 @@
 
 import UIKit
 
-class Network: NSObject {
+public class Network: NSObject {
     
-    static var url = ""
+    public static var url = ""
     
 }
