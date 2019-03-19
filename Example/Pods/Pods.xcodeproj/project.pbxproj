@@ -152,7 +152,7 @@
 		890C13ACC95F2BFEA0038F646CF9BDE9 /* PodTest */ = {
 			isa = PBXGroup;
 			children = (
-				CF7DE8EA2240C9E500A99080 /* Classes */,
+				CF7DE8EB2240CF8800A99080 /* Classes */,
 				6E3E28C8688C204303B85F37C725136A /* Pod */,
 				D24CE4B7FB3B37F6FF76F63180CA38B9 /* Support Files */,
 			);
@@ -186,12 +186,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CF7DE8EA2240C9E500A99080 /* Classes */ = {
+		CF7DE8EB2240CF8800A99080 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				CFEBFCD1223FD4D1002FF384 /* Network.swift */,
 			);
-			path = Classes;
+			name = Classes;
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 		D24CE4B7FB3B37F6FF76F63180CA38B9 /* Support Files */ = {
