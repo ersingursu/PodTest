@@ -15,6 +15,7 @@
 		B7CA50AA68522CEC9763476EDE022FEA /* Pods-PodTest_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7702907FC68F419D3FAD698BB35D4F4 /* Pods-PodTest_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CF7DE8EF2240D2BF00A99080 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7DE8EE2240D2BF00A99080 /* Network.swift */; };
 		CF7DE8F02240D69000A99080 /* PodTest.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 671BD29B863523367E02694E141E760E /* PodTest.podspec */; };
+		CF7DE8F22240D96800A99080 /* UserSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7DE8F12240D96800A99080 /* UserSession.swift */; };
 		D5F98106DCF7F691FDF74BBD67ED2A7C /* Pods-PodTest_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C0593817B6292B9F1D4C96B156CAAC /* Pods-PodTest_Example-dummy.m */; };
 		D6DAD0ACECA071CD58A16393D54B9C4D /* PodTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6787BE0561857A7005B71BFF73D76CD /* PodTest-dummy.m */; };
 		FC0DF8ACCFA8BF68A1CEB80A2AA22C4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
@@ -62,6 +63,7 @@
 		B6787BE0561857A7005B71BFF73D76CD /* PodTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PodTest-dummy.m"; sourceTree = "<group>"; };
 		C79C14DC6755E4FB7983114F54363F5E /* Pods-PodTest_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PodTest_Example-umbrella.h"; sourceTree = "<group>"; };
 		CF7DE8EE2240D2BF00A99080 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		CF7DE8F12240D96800A99080 /* UserSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSession.swift; sourceTree = "<group>"; };
 		CFAD2205CEEC719FDAD4937D59B957B3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D014A246DE15E621BD485E9F4A792492 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D295141C964ACBA4EFDAF1AAE277292D /* Pods-PodTest_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PodTest_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -191,6 +193,7 @@
 			isa = PBXGroup;
 			children = (
 				CF7DE8EE2240D2BF00A99080 /* Network.swift */,
+				CF7DE8F12240D96800A99080 /* UserSession.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -390,6 +393,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF7DE8F22240D96800A99080 /* UserSession.swift in Sources */,
 				CF7DE8EF2240D2BF00A99080 /* Network.swift in Sources */,
 				D6DAD0ACECA071CD58A16393D54B9C4D /* PodTest-dummy.m in Sources */,
 			);

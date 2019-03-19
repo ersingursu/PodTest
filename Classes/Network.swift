@@ -11,5 +11,5 @@ public class Network: NSObject {
 
     public var url = ""
     public var user : Any?
-    
+    public var urlSession : URLSession?
 }
