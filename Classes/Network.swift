@@ -10,5 +10,6 @@ import UIKit
 public class Network: NSObject {
 
     public var url = ""
+    public var user : Any?
     
 }
